@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Green Screen Practice</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<h1> Green Screen Image </h1>
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+<div>
+  <p> Foreground Image <input type="file" multiple="false" accept="image/*" id="fi1" onchange="upload1()"> Background Image <input type="file" multiple="false" accept="image/*" id="fi2" onchange="upload2()"> </p>
+  <p> <input type="button" id="comp" value="Create Composite" onclick="composite()"> <input type="button" id="clear" value="Clear Canvas" onclick="clear()"> </p>
+</div>
+<script  src="./script.js"></script>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</body>
+</html>
